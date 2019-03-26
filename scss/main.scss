@@ -35,7 +35,8 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.3);
+    //background: rgba(lighten($primary-color, 2), 0.3);
+    color: #fff;
   }
 }
 
@@ -128,6 +129,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+    background: cover;
 
     &:hover {
       opacity: 0.5;
@@ -165,7 +167,7 @@ main {
 
 // Button Styles - could make separate button scss file
 .btn {
-  display: block;
+  display: inline-block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
